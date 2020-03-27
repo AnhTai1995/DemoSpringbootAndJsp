@@ -1,0 +1,252 @@
+2020-03-27 15:55:27,885 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 4656 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 15:55:27,904 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 15:55:30,239 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 15:55:30,240 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 15:55:30,468 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 15:55:30,596 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-03-27 15:55:30,623 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-03-27 16:00:29,763 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 1760 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:00:29,767 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:00:33,291 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:00:33,292 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:00:33,496 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:00:33,573 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-03-27 16:00:33,617 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-03-27 16:03:38,321 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 14216 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:03:38,335 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:03:40,204 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:03:40,204 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:03:40,366 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:03:40,479 ERROR com.zaxxer.hikari.HikariConfig [main] Failed to load driver class org.postgresql.Driver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+2020-03-27 16:03:40,487 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-03-27 16:03:40,512 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: org.postgresql.Driver
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class org.postgresql.Driver in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2020-03-27 16:05:56,670 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 13460 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:05:56,678 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:05:58,508 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:05:58,508 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:05:58,648 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:05:58,891 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:05:58,946 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:05:59,051 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:05:59,216 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:05:59,407 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:05:59,426 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:05:59,762 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:06:00,620 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 4.637 seconds (JVM running for 6.572)
+2020-03-27 16:34:50,825 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 10228 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:34:50,833 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:34:53,490 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:34:53,491 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:34:54,169 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:34:54,181 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:34:54,370 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:34:54,466 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:34:54,621 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:34:54,740 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:34:54,979 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:34:55,000 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:34:55,348 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:34:56,039 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 6.028 seconds (JVM running for 9.254)
+2020-03-27 16:36:23,664 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:38:07,896 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 13404 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:38:07,901 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:38:10,755 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:38:10,756 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:38:11,263 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:38:11,282 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:38:11,551 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:38:11,652 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:38:11,854 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:38:12,025 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:38:12,205 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:38:12,222 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:38:12,550 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:38:13,116 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 6.428 seconds (JVM running for 9.653)
+2020-03-27 16:39:09,983 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:39:51,280 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 16024 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:39:51,284 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:39:53,399 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:39:53,399 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:39:53,776 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:39:53,790 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:39:53,933 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:39:53,994 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:39:54,099 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:39:54,181 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:39:54,300 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:39:54,313 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:39:54,670 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:39:55,267 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 4.663 seconds (JVM running for 6.846)
+2020-03-27 16:40:05,400 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:41:01,634 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 11108 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:41:01,638 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:41:04,236 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:41:04,238 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:41:05,003 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:41:05,025 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:41:05,265 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:41:05,334 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:41:05,436 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:41:05,555 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:41:05,704 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:41:05,717 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:41:06,051 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:41:06,788 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 6.126 seconds (JVM running for 9.376)
+2020-03-27 16:41:28,150 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:41:28,254 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8091-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1353)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-03-27 16:43:13,378 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 4328 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:43:13,384 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:43:16,284 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:43:16,285 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:43:16,928 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:43:16,945 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:43:17,200 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:43:17,298 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:43:17,495 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:43:17,681 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:43:17,830 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:43:17,844 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:43:18,216 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:43:18,896 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 6.467 seconds (JVM running for 9.286)
+2020-03-27 16:44:12,406 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:44:12,607 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8091-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'index' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1353)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-03-27 16:46:26,827 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Starting DemoSpringAndMvcApplication on DESKTOP-KQR2RVD with PID 15232 (started by User in G:\DEMO JAVA\Training\demoSpringAndMvc)
+2020-03-27 16:46:26,832 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 16:46:30,369 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-27 16:46:30,371 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 16:46:31,175 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-27 16:46:31,196 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 16:46:31,567 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 16:46:31,698 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 16:46:31,809 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 16:46:31,978 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 16:46:32,149 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 16:46:32,167 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-03-27 16:46:32,540 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 16:46:33,355 INFO com.example.demoSpringAndMvc.DemoSpringAndMvcApplication [main] Started DemoSpringAndMvcApplication in 7.331 seconds (JVM running for 9.733)
+2020-03-27 16:47:27,731 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8091-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:47:29,413 WARN org.apache.catalina.util.SessionIdGeneratorBase [http-nio-8091-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [666] milliseconds.
