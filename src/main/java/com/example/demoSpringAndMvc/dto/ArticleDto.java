@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Article DTO
+ * ArticleEntity DTO
  *
  * @author TuMV
  */
@@ -17,9 +17,5 @@ public class ArticleDto {
     private String title;
 
     private String category;
-
-    private String userName;
-
-    private int age;
 
 }

@@ -8,18 +8,18 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
- * Article entity
+ * ArticleEntity entity
  *
  * @author TaiNa
  */
 @Entity
 @Table(name="articles")
 @Data
-public class Article implements Serializable {
+public class ArticleEntity implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @Column(name="article_id")
-    private int articleId;
+    private Integer articleId;
 
     @Column(name="title")
     private String title;

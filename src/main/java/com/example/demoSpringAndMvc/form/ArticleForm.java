@@ -3,7 +3,7 @@ package com.example.demoSpringAndMvc.form;
 import lombok.Data;
 
 /**
- * Article form to mapping request's param
+ * ArticleEntity form to mapping request's param
  *
  * @author TuMV
  */
