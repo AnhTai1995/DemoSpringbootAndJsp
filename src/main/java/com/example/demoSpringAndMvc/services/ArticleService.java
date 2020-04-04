@@ -1,6 +1,5 @@
 package com.example.demoSpringAndMvc.services;
 
-import com.example.demoSpringAndMvc.dto.ArticleDto;
 import com.example.demoSpringAndMvc.form.ArticleForm;
 import com.example.demoSpringAndMvc.model.ArticleEntity;
 import java.util.List;
